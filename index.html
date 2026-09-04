@@ -252,8 +252,7 @@
       "g3 g3 g4 g4 g5 g5"
       "g3 g3 g4 g4 g5 g5"
       "g3 g3 g4 g4 g5 g5"
-      "g6 g6 g6 g6 g6 g6"
-      "g6 g6 g6 g6 g6 g6";
+      "g3 g3 g4 g4 g5 g5";
   }
   .g-item{ position:relative; overflow:hidden; background: var(--bg-alt-2); }
   .g-item img{ width:100%; height:100%; object-fit:cover; transition: transform .7s var(--ease), filter .5s; filter: grayscale(0.1); }
@@ -272,8 +271,7 @@
   .g3{ grid-area: g3; }
   .g4{ grid-area: g4; }
   .g5{ grid-area: g5; }
-  .g6{ grid-area: g6; }
-
+  
   @media (max-width: 760px){
     .gallery-grid{
       grid-template-columns: repeat(2, 1fr);
@@ -284,9 +282,7 @@
         "g2 g3"
         "g2 g3"
         "g4 g5"
-        "g4 g5"
-        "g6 g6"
-        "g6 g6";
+        "g4 g5";
     }
   }
 
@@ -484,7 +480,7 @@
         <div class="g-item g3"><img data-img="gallery-2" alt="Cadeira de barbearia"></div>
         <div class="g-item g4"><img data-img="gallery-3" alt="Aparo de barba"></div>
         <div class="g-item g5"><img data-img="gallery-4" alt="Corte em andamento com tesoura de desbaste"></div>
-        <div class="g-item g6"><img data-img="gallery-5" alt="Cliente recebendo o corte finalizado"></div>
+        
       </div>
     </div>
   </section>
